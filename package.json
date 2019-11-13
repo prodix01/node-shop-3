@@ -1,0 +1,23 @@
+{
+  "name": "shop3",
+  "version": "1.0.0",
+  "description": "node-shop#3",
+  "main": "index.js",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodix01/node-shop-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prodix01/node-shop-3/issues"
+  },
+  "homepage": "https://github.com/prodix01/node-shop-3#readme"
+}
