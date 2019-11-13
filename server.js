@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const bodyParser = require("body-parser");
 
 // app.use((req, res) => {
 //     res.json({
@@ -14,6 +15,9 @@ const routeProducts = require("./routes/api/products");
 const routeOrders = require("./routes/api/orders");
 
 app.listen(port ,console.log("서버를 시작합니다."));
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended : false}));
 
 
 app.use("/users", routeUsers);
